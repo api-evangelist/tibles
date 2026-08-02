@@ -1,8 +1,25 @@
 aid: tibles
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tibles.png
 name: Tibles
-description: 'Tibles is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tibles is a digital collectibles company building authentic, engaging collecting
+  experiences on the Flow blockchain. Its Tibles Clubhouse platform hosts multiple consumer iOS and
+  web apps built around licensed intellectual properties — including FuggClub (Fugglers), Sk8tibles
+  (Skateboarding Hall of Fame), OneShots (Valiant Comics), Tibles Fraggle Rock and Seussibles (Jim
+  Henson / Dr. Seuss), and Aggretsuko (Sanrio) — offering interactive digital trading cards and NFT
+  collections with barter-style trading, chat, and community events. Tibles is a Certified Flow
+  Developer and publishes open-source Cadence smart contracts and an IPFS desktop client, but exposes
+  no public developer API, SDK, or documentation portal. Backed by Multicoin Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/tibles/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Digital Collectibles
+- NFT
+- Flow Blockchain
+- Trading Cards
+- Consumer Apps
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tibles-domain-security.yml
 - type: Website
   url: https://tibles.com
+- type: GitHubOrganization
+  url: https://github.com/Tibles
+- type: Support
+  url: https://www.tibles.com/support
+- type: TermsOfService
+  url: https://www.tibles.com/terms
+- type: PrivacyPolicy
+  url: https://www.tibles.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
